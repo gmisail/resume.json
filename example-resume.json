@@ -1,0 +1,46 @@
+{
+	"name": "First Last",
+	"contact": [
+		"First",
+		"Second",
+		"Third"
+	],
+	"summary": "This is my summary",
+	"sections": [
+		{
+			"title": "Experience",
+			"items": [
+				{
+					"name": "Name of my job",
+					"from": "June 2020",
+					"to": "June 2021",
+					"summary": "Summary of my job"
+				},
+				{
+					"name": "Another job",
+					"from": "June 2020",
+					"to": "June 2021",
+					"summary": "Summary of my other job"
+				},
+				{
+					"name": "Yet another job",
+					"from": "May 2020",
+					"to": "February 2021",
+					"list": [
+						"I can list...",
+						"... things ...",
+						"... too"
+					]
+				}
+			]
+		},
+		{
+			"title": "Some listed catagory",
+			"list": [
+				"I can list...",
+				"... things ...",
+				"... too"
+			]
+		}
+	]
+}
