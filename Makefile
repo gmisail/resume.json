@@ -8,4 +8,4 @@ resume.pdf: resume.html resume.css
 	make clean
 
 clean:
-	rm -f resume.html resume.pdf resume_temp.htm
+	rm -f resume.html resume_temp.htm
