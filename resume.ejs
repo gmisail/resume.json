@@ -37,7 +37,14 @@
 
 					<% if(section.items != undefined && section.items.length > 0) { %>
 						<% section.items.forEach(function(item){ %>
-							<h3><span><%= item.name %></span> <span><%= item.from %> - <%= item.to %></span></h3>
+							<h3>
+								<span><%= item.name %></span> 
+								<% if(item.link != undefined) { %>
+									<span class="link"><%= item.link %></span>
+								<% } %> 
+								<span><%= item.from %> - <%= item.to %></span>
+							</h3>
+
 							<% if(item.summary != undefined && item.summary.length > 0) { %>
 								<p><%= item.summary %></p>
 							<% } %>
